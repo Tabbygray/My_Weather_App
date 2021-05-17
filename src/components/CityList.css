@@ -1,0 +1,20 @@
+.cityListUl{
+}
+.cityListLi {
+  font-size: 20px;
+  list-style: inside square;
+  border: 3px red;
+  padding: 8px;
+  margin : 1.5px;
+  float: left;
+  font-weight: 600;
+  text-shadow: 4px;
+  border: solid 4px #074f85;
+}
+.cityListLi:nth-child(2n-1) {
+  background-color: #8cb2cf;
+}
+.cityListLi:nth-child(2n) {
+  background-color: #16476b;
+  color: white;
+}
